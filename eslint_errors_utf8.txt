@@ -1,0 +1,4 @@
+
+FILE: D:\pack-ledger\app\dashboard\reports\page.tsx
+[ERROR] Line 285: Comments inside children section of tag should be placed inside braces (react/jsx-no-comment-textnodes)
+[ERROR] Line 287: Unexpected any. Specify a different type. (@typescript-eslint/no-explicit-any)
