@@ -38,21 +38,12 @@ export const metadata: Metadata = {
     title: "LedgerOne — Billing & Inventory for Packaging Businesses",
     description:
       "The all-in-one platform to streamline your packaging business. Manage inventory, generate GST-compliant invoices, and track payments seamlessly.",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "LedgerOne — Billing & Inventory for Packaging Systems",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "LedgerOne — Billing & Inventory for Packaging Businesses",
     description:
       "Manage inventory, generate GST-compliant invoices, and track payments seamlessly.",
-    images: ["/og-image.png"],
   },
   robots: {
     index: true,
