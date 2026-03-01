@@ -7,7 +7,10 @@ import { Toaster } from "@/components/ui/sonner"
 import { getSession } from "@/lib/session";
 import prisma from "@/lib/db";
 
-const siteUrl = "https://ledgerone.in";
+// Dynamically determine the base URL so Vercel preview URLs resolve OG images correctly 
+// before the main domain is fully pointed.
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
